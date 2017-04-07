@@ -1,0 +1,260 @@
+#all {
+  align-self: center;
+  align-content: center;
+  align-items: center;
+}
+
+@font-face {
+    font-family: 'regular';
+    src: url('fonts/AvenirNext-Regular0.ttf');
+}
+
+@font-face {
+    font-family: 'medium';
+    src: url('fonts/AvenirNext-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'demi-bold';
+    src: url('fonts/AvenirNext-DemiBold.ttf');
+}
+
+.slider {
+  background-image: url("images/back-ground.jpg");
+  width:1400px;
+  height: 793px;
+  color: rgb(255, 254, 254);
+}
+
+.header {
+  position: relative;
+  left: 231px;
+  top: 20px;
+  width:69%;
+
+}
+
+.logo {
+  width: 165px;
+  z-index: 51;
+}
+
+.langs {
+    position: relative;
+    float: right;
+    left: -210px;
+    top: 20px;
+    font-size: 11px;
+    font-family: 'demi-bold';
+    font-weight: bold;
+}
+
+.langs > span {
+  position: relative;
+  padding-right: 20px;
+}
+
+.testing {
+  font-size: 14px;
+  font-family: 'regular';
+  text-align: left;
+  z-index: 52;
+}
+
+.menu {
+  position: relative;
+  float:right;
+  font-size: 18px;
+  font-family: 'medium';
+  top:14px;
+}
+
+.dropdown {
+    padding-right: 49px;
+}
+
+.rectangle {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(255, 255, 255);
+  border-radius: 22.5px;
+
+  /*border opacity: 0.251;*/
+  position: relative;
+  float:right;
+  top: -9.5px;
+  width: 232px;
+  height: 43px;
+  z-index: 47;
+}
+
+.rectangle span {
+  position: relative;
+  left:20px;
+  z-index: 50;
+  vertical-align: -webkit-baseline-middle;
+}
+
+.divider{
+  background-color: rgb(255, 255, 255);
+  opacity: 0.251;
+  left:30px;
+  margin-right: 20px;
+  width: 1px;
+  height: 26px;
+}
+
+.label {
+  text-align: center;
+  position: relative;
+  top: 243px;
+  z-index: 50;
+  left:10px;
+line-height:67px;
+}
+
+.label span:first-child {
+  font-family: 'medium';
+  font-size: 72px;
+  /*position: relative;*/
+  width: 790px;
+  word-wrap: normal;
+  height: auto;
+}
+
+.label span:nth-child(n+2){
+  font-family: 'regular';
+  font-size: 26px;
+  color: rgb(255, 254, 254);
+  z-index: 29;
+}
+
+.label span:last-child {
+  display:inline-block;
+  font-family: 'regular';
+  font-size: 20px;
+  z-index: 29;
+
+}
+
+.bluebutton {
+  font-family: 'regular';
+  font-size: 20px;
+  display:inline-block;
+  background-color: rgb(40, 86, 179);
+  box-shadow: 0px 10px 35px 0px rgba(13, 54, 135, 0.6);
+  position: relative;
+  width: 236px;
+  height: 60px;
+  border-radius: 30px;
+  text-align: center;
+  top: 35px;
+  z-index: 27 ;
+  line-height: 60px;
+}
+
+
+.second {
+  background-image: url("images/guy.png");
+  height: 747px;
+  background-repeat: no-repeat;
+  /*left:40px;*/
+  background-position: 10% -7%;
+}
+
+.content {
+  left: 630px;
+  color: rgb(38, 38, 38);
+  font-family: 'medium';
+  position: relative;
+  width:460px;
+}
+
+.content p:first-child {
+  position: relative;
+  /*float: left;*/
+  top: 60;
+  font-size: 46px;
+}
+
+.content span:nth-child(3){
+  /*position: relative;*/
+  font-size: 20px;
+  color: rgb(255, 254, 254);
+  /*vertical-align: middle;*/
+  top: 50px;
+  /*text-align: center;*/
+}
+
+.content span:nth-child(3) textarea{
+  /*position: relative;*/
+  font-size: 30px;
+  /*text-align: center;*/
+}
+
+.content ul {
+  /*list-style-image: url('images/dot.png');*/
+  list-style: none;
+  margin-left: 0px;
+  padding-left: 5px;
+  position: relative;
+  width:410px;
+  line-height: 29px;
+}
+
+.content li:before {
+    content:"· ";
+    font-size:52px;
+    vertical-align:middle;
+    line-height:20px;
+    color: rgb(15, 78, 208);
+}
+
+.ustudy {
+  position: relative;
+  display: inline-block;
+  border-width: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style: dashed;
+  border-radius: 5px;
+  opacity: 0.149;
+  width: 458px;
+  height: 98px;
+  z-index: 8;
+  top:120px;
+  line-height: 25px;
+}
+
+.ustudy span {
+  font-size: 14px;
+  position: relative;
+  left: 34px;
+  top: 28px;
+  /*color: rgb(179, 179, 179);*/
+}
+
+.footer {
+  font-size: 14px;
+  font-family: 'medium';
+  /*color: rgb(40, 86, 179);*/
+  color: rgb(83, 120, 194);
+  line-height: 1.714;
+  position: relative;
+  left: 205px;
+  top: 57px;
+  width: 700px;
+  height: 49px;
+  z-index: 2;
+}
+
+.footer a {
+  color: rgb(83, 120, 194);
+  line-height: 1.714;
+}
+
+.footer span {
+  color: rgb(204, 204, 204);
+}
+/*.grey {
+  color: rgb(204, 204, 204);
+}*/
